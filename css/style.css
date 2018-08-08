@@ -1,0 +1,51 @@
+body{
+	text-align: center;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+p span:hover{
+	cursor: pointer;
+}
+.sliderBox1{
+	position: relative;
+	display: block;
+	width: 700px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+.sliderBox2{
+	position: relative;
+	display: block;
+	width: 500px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+.slideWrapper{
+	position: relative;
+	overflow: hidden;
+	padding: 20px 0;
+}
+.box1{
+	display: block;
+	width: 700px;
+	float: left;
+}
+.box2{
+	display: block;
+	width: 500px;
+	float: left;
+}
